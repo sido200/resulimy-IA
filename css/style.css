@@ -1,642 +1,392 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@600&display=swap');
-body{
-    background-color:  #222831;
-    color: white;
-    overflow-x: hidden;
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:wght@600&display=swap");
+body {
+  background-color: #222831;
+  color: white;
+  overflow-x: hidden;
 }
-*{
-    margin: 0%;
-    padding: 0;
-    list-style: none;
+* {
+  margin: 0%;
+  padding: 0;
+  list-style: none;
 }
 /*navbar*/
-nav{
-   
-    position: fixed;
-    font-family: 'Poppins', sans-serif;
-    height: 70px;
-    width: 100vw;
-    background-color: #EEEEEE;
-    z-index: 1;
+nav {
+  position: fixed;
+  font-family: "Poppins", sans-serif;
+  height: 70px;
+  width: 100vw;
+  background-color: #eeeeee;
+  z-index: 1;
 }
-nav ul{
-    display: flex;
-    height: 100%;
-    justify-content: space-evenly;
-    align-items: center;
-    color: black;
-    font-weight: bold;
-
+nav ul {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: black;
+  font-weight: bold;
 }
-    nav li div{
-        border-radius: 50%;
-        height: 100px;
-        width: 100px;
-        margin-top: 20px;
-        background-color: #EEEEEE;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    nav li div img{
-        
-        height: 60px;
-        width: 60px;
-      
-       
-    }
-    nav h1 span{
-        color: #222222 !important;
-        font-weight: 100 !important;
-    }
-    .cat {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 110px;
-        cursor: pointer;
-    }
-    nav ul li svg{
-      height: 15px;
-      height: 15px;
-    }
-    nav input{
-     border-radius: 15px;
-     border: none;
-     height: 30px;
-     width: 150px;
-     text-align: end;
-     padding: 10px;
-     font-size: medium;
+nav li div {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav li div img {
+  height: 60px;
+  width: 60px;
+}
+nav h1 span {
+  color: #222222 !important;
+  font-weight: 100 !important;
+}
+.cat {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 110px;
+  cursor: pointer;
+}
+nav ul li svg {
+  height: 15px;
+  height: 15px;
+}
+nav input {
+  border-radius: 15px;
+  border: none;
+  height: 30px;
+  width: 150px;
+  text-align: end;
+  padding: 10px;
+  font-size: medium;
+}
+.loup {
+  position: relative;
+  left: 40px;
+}
+.sous-cat {
+  position: absolute;
+  display: none;
+  height: 200px;
+  width: 150px;
+  top: 50px;
+  border-radius: 0;
+}
 
-    }
-    .loup {
-  
-    position: relative;
-    left: 40px;
-    }
-    .sous-cat{
-        position: absolute;
-     display: none;
-        height: 200px;
-        width: 150PX;
-        top: 50px;
-        border-radius: 0;
-
-    }
-   
-    .sous-cat ul{
- align-items: flex-start;
-        display: flex;
-        color: #777777 !important;
-    flex-direction: column;
-    
-
-    }
+.sous-cat ul {
+  align-items: flex-start;
+  display: flex;
+  color: #777777 !important;
+  flex-direction: column;
+}
 /*chatgpt*/
-#flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly ;
-    align-items: center;
-    
+#flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.img img{
-   width: 650px;
-   height: 400px;
-   margin-top: 26%;
-  
+.img img {
+  width: 650px;
+  height: 400px;
+  margin-top: 26%;
 }
-.button{
-    margin-top: 5%;
+.button {
+  margin-top: 5%;
 }
-.button button{
-    align-items: center;
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 20px;
-    padding: 14px;
-    width: 200px;
-    font-size: 20px;
-   
+.button button {
+  align-items: center;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 14px;
+  width: 200px;
+  font-size: 20px;
 }
-.button button:hover{
-    background-color: rgba(255, 255, 255, 0.003);
-    transition: 0.5s;
-    border: solid 2px ;
-    border-color: white;
-    color: white;
+.button button:hover {
+  background-color: rgba(255, 255, 255, 0.003);
+  transition: 0.5s;
+  border: solid 2px;
+  border-color: white;
+  color: white;
 }
 .button a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
- #section2{
-    margin: 4%;
+#section2 {
+  margin: 4%;
 }
-#section1{
-    padding-top: 10% ;
-    padding-left: 4% ;
-    padding-right:4%;
+#section1 {
+  padding-top: 10%;
+  padding-left: 4%;
+  padding-right: 4%;
 }
-.concept{
- display: flex;  
- justify-content: space-between;
- margin: 2%;
+.concept {
+  display: flex;
+  justify-content: space-between;
+  margin: 2%;
 }
-.concept img{
-    width: 500px;
-    margin-top: 20%;
+.concept img {
+  width: 500px;
+  margin-top: 20%;
 }
-.concept h1{
-font-size: 60px;
-}
-
-.concept p{
-    font-size: 30px;
+.concept h1 {
+  font-size: 60px;
 }
 
-#title{
-   display: flex;
-   align-items: center;
-
+.concept p {
+  font-size: 30px;
 }
-#title h2{
-    margin: 4%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px; 
-    background-color: white;
-    color: black;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-}
-#title h1{
-    font-family: 'Poppins';
 
+#title {
+  display: flex;
+  align-items: center;
+}
+#title h2 {
+  margin: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+#title h1 {
+  font-family: "Poppins";
 }
 /*description de site*/
-#description h1, #descriptions h1{
-    font-family: 'Poppins';
-    font-size: 45px;
+#description h1,
+#descriptions h1 {
+  font-family: "Poppins";
+  font-size: 45px;
 }
-#description h3{
-    font-family: 'Poppins';
-    font-size: 25px;
+#description h3 {
+  font-family: "Poppins";
+  font-size: 25px;
 }
-#description p{
-    font-size: 18px;
-    font-family: 'Poppins';
-   
+#description p {
+  font-size: 18px;
+  font-family: "Poppins";
 }
-#descriptions p{
-    font-size: 25px;
-    margin-top: 20px;
+#descriptions p {
+  font-size: 25px;
+  margin-top: 20px;
 }
-.para p{
-  font-family: 'Poppins';
+.para p {
+  font-family: "Poppins";
   font-size: 18px;
   text-align: justify;
-
 }
-.descri{
-    display: flex;
-
+.descri {
+  display: flex;
 }
-.img{
-    align-items: center;
-    margin-top: 4%;
-    margin-right: 6%;
-    
+.img {
+  align-items: center;
+  margin-top: 4%;
+  margin-right: 6%;
 }
-.img img{
-    width: 400px;
-    height: 250px;
-    margin: 5%;
+.img img {
+  width: 400px;
+  height: 250px;
+  margin: 5%;
 }
-#img img{
-    width: 230px;
-    height:230px;
-    margin-top: 2%;
-
+#img img {
+  width: 230px;
+  height: 230px;
+  margin-top: 2%;
 }
-#img{
-    display: flex;
-    align-items: center;
-    margin: 10%;
+#img {
+  display: flex;
+  align-items: center;
+  margin: 10%;
 }
-.image img, .img img, #img img{
-    transition: 1s;
+.image img,
+.img img,
+#img img {
+  transition: 1s;
 }
-.image img:hover, .img img:hover, #img img:hover {
-    transform: scale(1.2); 
-    cursor: pointer;
-
+.image img:hover,
+.img img:hover,
+#img img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
-.image img{
-    width: 400px;
-    height: 300px;
-   
+.image img {
+  width: 400px;
+  height: 300px;
 }
 
-.left{
-    margin-right: 10%;
+.left {
+  margin-right: 10%;
 }
-.rights{
-    
-    margin-left: 15%;
+.rights {
+  margin-left: 15%;
 }
-#grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-left: 10%;
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-left: 10%;
 }
-/*respo*/
-@media screen and (max-width:1240px) {
-    .img img{
-        width: 450px;
-        height: 250px;
-    }
-    .img{
-        margin-top: 6%;
-    } 
-    #description h1{
-        font-size: 40px;
-    }
+
+/*section présentation AIs*/
+
+.presentation-AIs {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 45px;
 }
-@media screen and (max-width: 1070px) {
-    .img img{
-        width: 400px;
-        height: 200px;
-    }
-    #descriptions h1{
-        font-size: 35px;
-    }
-    #img img{
-        width: 200px !important;
-        height: 230px !important;
-    }
-    #img{
-        margin-right: -2%;
-    }
-    #descriptions p{
-        font-size: 20px;
-    }
-    .img{
-        margin-right: 0.5%;
-        margin-left: -1.5%;
-    }
-    #description h1{
-        font-size: 35px;
-    }
-    #description h3{
-        font-size: 25px;
-    }
-    #description p{
-        font-size: 15px;
-    }
-    #title h1{
-        font-size: 40px;
-    }
-    #Fonctionnement h1{
-        font-size: 30px;
-    }
-    .button button {
-        padding: 14px;
-        width: 150px;
-        font-size: 15px;
-    }
-    #img img{
-        margin-top: -5%;
-        width: 150px;
-        height: 150px;
-    }
-   #descriptions p{
-    font-size: 25px;
-    margin-top: 20px;
-   }
+.ai-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 7vw;
 }
-@media screen and (max-width:925px) {
-    .img img{
-        width: 300px;
-        height: 200px;
-    }
-    #descriptions h1{
-       font-size: 30px;
-    }
-    #img img{
-        width: 150px !important;
-        height: 190px !important;
-    }
-    #descriptions p{
-        font-size: 20px ;
-    }
-    .img{
-        margin-right: 1%;
-    }
-    .para p{
-        font-size: 13px;
-    }
-    .image img{
-        width: 250px;
-        height: 180px;
-    }
+.ai-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 650px;
+  filter: blur(0);
+  padding: 10px;
+  border-radius: 15px;
+  color: #21242b;
 }
-@media screen and (max-width:820px) {
-    .img img{
-        width: 250px;
-        height: 150px ;
-    }
-    .img{
-        margin-right: 10%;
-    }
-    #description h1{
-       font-size: 25px;
-    }
-    #description h3{
-        font-size: 18px;
-    }
-    #description p{
-        font-size: 10px;
-    }
-    #Fonctionnement h2{
-        font-size: 40px;
-    }
-   
+/*
+.ai-grid:has(.ai-card:hover) > .ai-card:not(:hover) {
+  filter: blur(4.5px);
 }
-@media screen and (max-width:750px) {
-     .img img{
-        width: 220px;
-        height: 120px ;
-    }
-    #img img{
-        width: 140px !important ;
-        height:  180px !important;
-        margin-top: 6%;
-    }
-    #descriptions{
-        margin-top: 6%;
-    }
-     #descriptions p{
-        font-size: 15px;
-     }
-   .button button{
-    padding: 10px;
-    width: 120px;
-    font-size: 13px;
-   }
-   #title h1{
-    font-size: 29px;
-   }
-   #title h2{
-    font-size: 35px;
-    width: 40px;
-    height: 40px;
-   }
-   #Fonctionnement h1{
-   font-size: 25px;
-   }
-   #fonctionnement h2{
-   font-size: 30px;
-   width: 60px;
-   }
+
+@keyframes bigger {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}*/
+.img-part {
+  height: 50.5%;
+  width: 100%;
+  display: grid;
+  place-items: center;
 }
-@media screen and (max-width:590px) {
-    #section1{
-        padding-top: 20%;
-        padding-left: 10%;
-    }
-    .descri{
-        display: flex;
-       flex-direction: column ;
-    }
-    #descriptions h1{
-    font-size: 40px ;
-   
-    }
-    #descriptions p{
-        font-size: 20px ;
-    }
-    #img img {
-        width: 200px !important  ;
-       
-    }
-    #flex{
-      display: flex ;
-      flex-direction: column ;
-    }
-    #description h1{
-        font-size: 35px;
-    }
-   
-    #description h3{
-        font-size: 25px;
-    }
-    #description p{
-        font-size: 15px;
-        margin-top: 15px;
-    }
-    .img img{
-        width: 350px;
-        height: 250px ;
-    }
-    .img{
-        margin-right: 15%;
-    }
-    #grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-       }
-    .button button{
-        margin: 10px;
-    }   
-    .button{
-        margin-left: 0% ;
-    }
-    .concept{
-        display: flex;
-        flex-direction: column;
-        align-items: center !important;
-    }
-    .reverse{
-        display: flex;
-        flex-direction: column-reverse;
-    }
+
+.img-content img {
+  border-radius: 50%;
+  width: 100%;
 }
-@media screen and (max-width:480px) {
-    #description h1{
-        font-size: 33px;
-    }
-    #description h3{
-        font-size: 18px;
-    }
-    #description p{
-        font-size: 13px;
-    }
-    .img img{
-        width: 300px;
-        height: 200px;
-    }
-    .reverse{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    #img {
-        margin-left: -5%;
-    }
-    
+
+.notion {
+  width: 50% !important;
+  border-radius: 0 !important;
 }
-@media screen and (max-width:414px) {
-    #description h1{
-        font-size: 23px;
-    }
-    .para p{
-        word-break: break-word;
-        hyphens: auto;
-    }
-    .reverse{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-   
-    
+.img-content {
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-items: center;
+  object-fit: contain;
+  border-radius: 50%;
 }
-@media screen and (max-width:325px) {
-    #description h1{
-        font-size: 22px;
-    }
-    #description h3{
-        font-size: 15px;
-    }
-    #description p{
-        font-size: 9px;
-    }
-    #descriptions p{
-        font-size: 15px !important;
-        margin-right: -30%;
-    }
-    #descriptions h1{
-        margin-right: -30% ;
-        font-size: 30px;
-    }
-    .img img{
-        width: 200px ;
-        height: 150px;
-    }
-    .button{
-       margin-right: 40% /* ne marche pas */;
-      
-    }
-    .button button{
-        padding: 14px;
-        width: 90px;
-        font-size: 10px;
-    }
+.img-content.notion {
+  background-color: white;
+  border-radius: 50% !important;
 }
-@media screen and (max-width: 250px) {
-    #description h1{
-        font-size: 15px
-    }
-    #descriptions h1{
-        font-size: 25px;
-        margin-right: -50% !important;
-    }
-    #descriptions p{
-        margin-right: -60%;
-    }
-    #img img {
-        width: 120px !important ;
-        height: 120px !important;
-    }
-    #img{
-        margin-left: 10%;
-    }
-   #grid{
-    display: grid;
-    grid-template-columns: 1fr;
-   }
-   .button {
-      margin-left: 5%;
-   }
-   #title h1{
-    font-size: 25px;
-   }
-   #title h2{
-    font-size: 20px;
-    width: 40px;
-    height: 30px;
-    text-align: center;
-   }
-   .para p{
-    font-size: 10px;
-   }
-   .image img{
-      width: 180px;
-      height:90px;
-   }
-   .rights p{
-    margin-right: 15%;
-   }
-   #Fonctionnement p{
-    margin-left: 15% ;
-    margin-right: 4%;
-   }
-   #Fonctionnement h1{
-    font-size: 20px;
-   }
-   #Fonctionnement h2{
-    width: 40px;
-    height: 30px;
-   }
+.border-AI {
+  height: 1.5%;
+  width: 100%;
+  background-color: white;
+  border-radius: 5px;
 }
-@media screen and (max-width:235px) {
-    
-    #description{
-        margin-left: -1.4%;
-    }
-    #avantage{
-        margin-left: 14%;
-    }
+.ai-text-part {
+  height: 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
 }
-@media screen and (max-width:195px) {
-    body{
-        overflow-x: hidden;
-    }
-    #description{
-        margin-left: 20%;
-    }
-    #description p{
-        font-size: 7px;
-    }
-    .img img{
-        width: 150px ;
-        height: 90px;
-        margin-left: 15%;
-    }
-    #Fonctionnement #title{
-      margin-left: 10%;
-    }
-    .concept {
-        margin-left:6%;
-        margin-right: -0.2%;
-    }
-    .para p{
-        font-size: 6px;
-    }
-    #title h1{
-        font-size: 10px;
-    }
-    #title h2{
-        width: 10px;
-        height: 10px;
-        font-size: 7px;
-    }
-    .image img{
-        width: 90px ;
-        height: 80px ;
-    }
-    
+.ai-text-part .title {
+  margin-right: auto;
+  font-size: 2rem;
+  height: 20%;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.ai-text-part .AIs-p {
+  font-size: 1.05em;
+  height: 75%;
+  font-weight: 400;
+}
+.ai-grid input {
+  height: 48%;
+  width: 160px;
+  height: 48px;
+  border-radius: 25px;
+  background-color: white;
+  color: #222831;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/*footer*/
+footer,
+.up,
+.down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  overflow: hidden !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.down {
+  width: 100%;
+  border-top: 5px solid white;
+}
+.up {
+  height: auto;
+  padding: 25px;
+}
+footer h2 {
+  padding: 15px;
+}
+.down {
+  height: auto;
+  padding: 15px;
+}
+.infos-resumily-umbb,
+.resumily {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+}
+.infos-resumily-umbb img {
+  width: 100px;
+}
+.resumily {
+  justify-content: space-around;
+}
+.resumily p {
+  width: 75%;
+  word-break: break-word;
+  hyphens: auto;
 }

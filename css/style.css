@@ -363,30 +363,73 @@ footer,
 }
 .up {
   height: auto;
-  padding: 25px;
 }
 footer h2 {
   padding: 15px;
+  font-size: 2rem;
 }
 .down {
   height: auto;
-  padding: 15px;
+  padding-top: 15px;
 }
-.infos-resumily-umbb,
-.resumily {
+.infos-resumily-umbb {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   overflow: hidden !important;
 }
 .infos-resumily-umbb img {
   width: 100px;
 }
 .resumily {
-  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-inline: 15px;
+  width: 50%;
+}
+.fcbk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fcbk svg {
+  margin-inline: 10px;
 }
 .resumily p {
-  width: 75%;
   word-break: break-word;
   hyphens: auto;
+  font-size: 1.15rem;
+}
+.psocial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.psocial.left {
+  padding-left: 14px;
+}
+.psocial.right .socials {
+  padding-top: 25px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 7px;
+}
+.resumily.right {
+  border-left: 3px solid white;
+}
+.resumily.right img {
+  margin: 20px 20px 20px 0;
+  width: 150px;
+  padding-top: 10px;
+}
+.socials h4 {
+  width: min-content;
+  font-size: 0.9rem;
 }

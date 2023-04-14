@@ -366,11 +366,17 @@ footer,
 }
 footer h2 {
   padding: 15px;
-  font-size: 2rem;
+  font-size: 3.5vw;
 }
 .down {
   height: auto;
   padding-top: 15px;
+}
+.down p {
+  font-size: 1.5vw;
+}
+.down h2 {
+  font-size: 2.5vw;
 }
 .infos-resumily-umbb {
   display: flex;
@@ -399,7 +405,10 @@ footer h2 {
 .resumily p {
   word-break: break-word;
   hyphens: auto;
-  font-size: 1.15rem;
+  font-size: 1.6vw;
+}
+.resumily.left {
+  margin: 0;
 }
 .psocial {
   display: flex;
@@ -431,5 +440,5 @@ footer h2 {
 }
 .socials h4 {
   width: min-content;
-  font-size: 0.9rem;
+  font-size: 1.1vw;
 }

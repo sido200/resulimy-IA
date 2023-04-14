@@ -62,6 +62,19 @@
     font-size: 25px;
     margin-top: 20px;
   }
+  /*respo tablet footer*/
+  .resumily {
+    flex-direction: column;
+  }
+  .resumily.left {
+    margin: 0;
+  }
+  .resumily.left img {
+    margin: 15px 0 47px 0;
+  }
+  .psocial.right .socials {
+    margin-bottom: 20px;
+  }
 }
 @media screen and (max-width: 925px) {
   .img img {
@@ -209,6 +222,32 @@
   /*ai cards*/
   .ai-card {
     box-shadow: 10px 10px 5px rgb(20, 19, 19);
+  }
+  /*footer*/
+  .socials,
+  .fcbk {
+    flex-wrap: wrap;
+  }
+  .socials h4 {
+    font-size: 2vw;
+  }
+  .resumily p {
+    font-size: 2.7vw;
+  }
+  footer h2 {
+    font-size: 5vw;
+  }
+  .down p {
+    font-size: 2.5vw;
+  }
+  .down h2 {
+    font-size: 3.5vw;
+  }
+  .fcbk {
+    margin-bottom: 7px;
+  }
+  .fcbk.umbb {
+    margin-right: 21px;
   }
 }
 @media screen and (max-width: 480px) {

@@ -322,13 +322,13 @@ nav input {
 }
 .ai-text-part .title {
   margin-right: auto;
-  font-size: 2rem;
+  font-size: 2.8vw;
   height: 20%;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .ai-text-part .AIs-p {
-  font-size: 1.05em;
+  font-size: 1.3vw;
   height: 75%;
   font-weight: 400;
 }

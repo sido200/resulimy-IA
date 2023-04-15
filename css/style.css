@@ -83,6 +83,19 @@ nav input {
   color: #777777 !important;
   flex-direction: column;
 }
+.search{
+  opacity: 0;
+}
+.resp-nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 100%;
+width: 100%;
+color: black;
+display: none;
+
+}
 /*chatgpt*/
 #flex {
   display: flex;

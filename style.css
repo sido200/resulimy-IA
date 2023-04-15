@@ -77,9 +77,7 @@ nav ul{
         border-radius: 0;
 
     }
-    .search{
-        opacity: 0 !important;
-    }
+  
     .sous-cat ul{
  align-items: flex-start;
         display: flex;

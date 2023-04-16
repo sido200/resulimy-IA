@@ -1,0 +1,122 @@
+@media screen and (max-width: 1070px) {
+  .ai-card {
+    width: 250px;
+  }
+  .img-content {
+    width: 150px;
+    height: 150px;
+  }
+  .img-part.jasper img {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 945px) {
+  .ai-card {
+    width: 210px;
+  }
+  .img-content {
+    width: 130px;
+    height: 130px;
+  }
+  .img-part.jasper img {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .ai-card {
+    width: 190px;
+  }
+  .img-content {
+    width: 130px;
+    height: 130px;
+  }
+  .img-part.jasper img {
+    width: 190px;
+  }
+  .ai-text-part .title {
+    font-size: 3.4vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .ai-card {
+    width: 160px;
+  }
+  .img-content {
+    width: 100px;
+    height: 100px;
+  }
+  .img-part.jasper img {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 627px) {
+  .ai-card {
+    width: 130px;
+  }
+  .img-content {
+    width: 98px;
+    height: 98px;
+  }
+  .img-part.jasper img {
+    width: 110px;
+  }
+  .ai-text-part .AIs-p {
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 590px) {
+  .ai-card {
+    width: 430px;
+  }
+  .img-content {
+    width: 198px;
+    height: 198px;
+  }
+  .img-part.jasper img {
+    width: 240px;
+  }
+  .ai-text-part .AIs-p {
+    font-size: 3.7vw;
+  }
+  .ai-text-part .title {
+    font-size: 7.4vw;
+  }
+}
+@media screen and (max-width: 480px) {
+  .ai-card {
+    width: 350px;
+  }
+  .img-content {
+    width: 200px;
+    height: 200px;
+  }
+  .img-part.jasper img {
+    width: 190px;
+  }
+  .ai-text-part .AIs-p {
+    font-size: 4vw;
+  }
+}
+@media screen and (max-width: 325px) {
+  .ai-text-part .AIs-p {
+    font-size: 4.7vw;
+  }
+  .ai-text-part .title {
+    font-size: 8.4vw;
+  }
+}
+.img-content.notion.galileo {
+  background-color: black;
+}
+input:hover,
+.resp-nav i:hover,
+.fcbk svg,
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}

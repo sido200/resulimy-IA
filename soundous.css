@@ -16,3 +16,106 @@
     }
 
 }
+
+@media screen and (max-width:750px) {
+    .img img{
+       width: 220px;
+       height: 120px ;
+   }
+   #img img{
+       width: 140px !important ;
+       height:  180px !important;
+       margin-top: 6%;
+   }
+   #descriptions{
+       margin-top: 6%;
+   }
+    #descriptions p{
+       font-size: 15px;
+    }
+  .button button{
+   padding: 10px;
+   width: 120px;
+   font-size: 13px;
+  }
+  #title h1{
+   font-size: 29px;
+  }
+  #title h2{
+   font-size: 35px;
+   width: 40px;
+   height: 40px;
+  }
+  #Fonctionnement h1{
+  font-size: 25px;
+  }
+  #fonctionnement h2{
+  font-size: 30px;
+  width: 60px;
+  }
+  #jasper img{
+   width: 240px !important;
+   height: 120px !important;
+
+  }
+  .descjasper h1{
+   font-size: 20px !important;
+   margin-top: 20px;
+  }
+  .descjasper p{
+   font-size: 7.6px !important;
+  }
+  #jasper{
+   margin-left: 5%;
+  }
+  .rights p{
+     text-align: left;
+      margin-right: 20% !important;
+   }
+  
+}
+
+@media screen and (max-width:480px) {
+   #description h1{
+       font-size: 33px;
+   }
+   #description h3{
+       font-size: 18px;
+   }
+   #description p{
+       font-size: 13px;
+   }
+   .img img{
+       width: 300px;
+       height: 200px;
+   }
+   .reverse{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   #img {
+       margin-left: -5%;
+   }
+   #jasper img{
+       width: 200px !important ;
+       height: 160px !important;
+   }
+   
+}
+@media screen and (max-width:414px) {
+   #description h1{
+       font-size: 23px;
+   }
+   .para p{
+       word-break: break-word;
+       hyphens: auto;
+   }
+   .reverse{
+       display: flex;
+       flex-direction: column-reverse;
+   }
+   #jasper img{
+     width: 220px !important;
+     height: 150px !important;
+   }
+}

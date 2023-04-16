@@ -111,7 +111,8 @@
 }
 input:hover,
 .resp-nav i:hover,
-.fcbk svg {
+.fcbk svg,
+button {
   cursor: pointer;
 }
 a {

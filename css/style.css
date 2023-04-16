@@ -193,6 +193,7 @@ display: none;
 #descriptions p {
   font-size: 25px;
   margin-top: 20px;
+  font-family: "Poppins";
 }
 .para p {
   font-family: "Poppins";
@@ -249,7 +250,22 @@ display: none;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-left: 10%;
 }
-
+/* categories*/
+.cat-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  width: 100%;
+  
+}
+.cat-titel{
+  font-family: "Poppins";
+  font-size: 60px;
+  -webkit-text-stroke: 1px white; 
+  color: transparent; 
+}
 /*section présentation AIs*/
 
 .presentation-AIs {

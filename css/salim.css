@@ -106,3 +106,16 @@
     font-size: 8.4vw;
   }
 }
+.img-content.notion.galileo {
+  background-color: black;
+}
+input:hover,
+.resp-nav i:hover,
+.fcbk svg {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}

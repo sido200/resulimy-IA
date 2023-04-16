@@ -1,0 +1,18 @@
+#para {
+    font-size: 15px;
+}
+.image img {
+   margin-top: 20vh;
+}
+@media screen and (max-width:620px) {
+    .concept{
+        display: flex;
+        flex-direction: column;
+    }
+    #Inconvenients{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+}

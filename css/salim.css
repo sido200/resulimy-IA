@@ -1,3 +1,7 @@
+.ai-text-part .AIs-p {
+  font-size: 1vw !important;
+}
+
 @media screen and (max-width: 1070px) {
   .ai-card {
     width: 250px;

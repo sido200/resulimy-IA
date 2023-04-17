@@ -103,7 +103,8 @@ nav input {
   align-items: center;
 }
 
-.img img {
+.img img,
+.imagejasper img {
   width: 650px;
   height: 400px;
   margin-top: 26%;
@@ -202,38 +203,47 @@ nav input {
 .descri {
   display: flex;
 }
-.img {
+.img,
+.imagejasper {
   align-items: center;
   margin-top: 4%;
   margin-right: 6%;
 }
-.img img {
+.img img,
+.imagejasper img {
   width: 400px;
   height: 250px;
   margin: 5%;
 }
-#img img {
+#img img,
+#imagecolla img {
   width: 230px;
   height: 230px;
   margin-top: 2%;
 }
-#img {
+#img,
+#imagecolla {
   display: flex;
   align-items: center;
   margin: 10%;
 }
 .image img,
 .img img,
-#img img {
+.imagejasper img,
+#img img,
+#imagecolla img {
   transition: 1s;
 }
 .image img:hover,
 .img img:hover,
-#img img:hover {
+.imagejasper img:hover,
+#img img:hover,
+#imagecolla img:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
-.image img {
+.image img,
+.imagejasper img {
   width: 400px;
   height: 300px;
 }
@@ -271,7 +281,6 @@ nav input {
   padding: 0;
   font-family: "Poppins", sans-serif;
   margin-bottom: 45px;
-  width: 100%;
 }
 .ai-grid {
   display: flex;
@@ -297,7 +306,6 @@ nav input {
 .ai-grid:has(.ai-card:hover) > .ai-card:not(:hover) {
   filter: blur(4.5px);
 }
-
 @keyframes bigger {
   from {
     transform: scale(1);
@@ -350,13 +358,13 @@ nav input {
 }
 .ai-text-part .title {
   margin-right: auto;
-  font-size: 2.2vw;
+  font-size: 2.8vw;
   height: 20%;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .ai-text-part .AIs-p {
-  font-size: 0.8vw;
+  font-size: 1.3vw;
   height: 75%;
   font-weight: 400;
 }

@@ -15,6 +15,7 @@ cat.addEventListener("click", () => {
 let btn = document.querySelector(".fa-bars");
 let items = document.querySelector(".ul");
 const itemli = document.querySelectorAll(".ul a");
+const divnav = document.querySelector("ul");
 btn.addEventListener("click", function () {
   items.classList.toggle("active-barre");
   console.log("hi");
@@ -24,3 +25,9 @@ for (i = 0; i < itemli.length; i++) {
     items.classList.remove("active-barre");
   });
 }
+
+document.onclick = function (e) {
+  if (!btn.contains(e.target) && !divnav.contains(e.target)) {
+    items.classList.remove("active-barre");
+  }
+};
